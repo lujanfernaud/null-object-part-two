@@ -14,13 +14,13 @@ describe NoSubscription do
   end
 
   describe '#has_mentoring?' do
-    it 'returns false' do
+    it 'is false' do
       expect(described_class.new.has_mentoring?).to eq(false)
     end
   end
 
   describe '#price' do
-    it 'returns 0' do
+    it 'is 0' do
       expect(described_class.new.price).to eq(0)
     end
   end
