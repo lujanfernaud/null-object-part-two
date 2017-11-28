@@ -5,7 +5,7 @@ describe NoSubscription do
     it 'does not charge credit card' do
       credit_card = double('credit_card')
       allow(credit_card).to receive(:charge)
-      user = User.new(credit_card: credit_card)
+      user = User.new(credit_card: credit_card, created_at: 60.days.ago)
 
       user.charge
 
