@@ -1,6 +1,8 @@
 source "https://rubygems.org"
 
-gem "activemodel", "~> 4.0.0"
-gem "activesupport", "~> 4.0.0"
+ruby "2.4.1"
+
+gem "activemodel"
+gem "activesupport"
 gem "rake"
 gem "rspec"
